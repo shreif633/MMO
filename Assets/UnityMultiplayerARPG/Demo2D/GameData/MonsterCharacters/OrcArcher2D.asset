@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc36af2edc1501b48b4e46ebebbf6589, type: 3}
+  m_Name: OrcArcher2D
+  m_EditorClassIdentifier: 
+  title: Orc Archer
+  titles: []
+  description: 
+  descriptions: []
+  icon: {fileID: 0}
+  stats:
+    baseStats:
+      hp: 0
+      mp: 0
+      armor: 0
+      accuracy: 0
+      evasion: 0
+      criRate: 0.25
+      criDmgRate: 1.5
+      blockRate: 0
+      blockDmgRate: 0
+      moveSpeed: 2.5
+      atkSpeed: 1
+      weightLimit: 0
+      stamina: 0
+      food: 0
+      water: 0
+      testStats: 0
+    statsIncreaseEachLevel:
+      hp: 0
+      mp: 0
+      armor: 0
+      accuracy: 0
+      evasion: 0
+      criRate: 0
+      criDmgRate: 0
+      blockRate: 0
+      blockDmgRate: 0
+      moveSpeed: 0
+      atkSpeed: 0
+      weightLimit: 0
+      stamina: 0
+      food: 0
+      water: 0
+      testStats: 0
+  attributes:
+  - attribute: {fileID: 11400000, guid: 0e223af20738b88419c22a1a0401a21b, type: 2}
+    amount:
+      baseAmount: 15
+      amountIncreaseEachLevel: 1.5
+  - attribute: {fileID: 11400000, guid: cf50e3647cfae0e44b683163d2171277, type: 2}
+    amount:
+      baseAmount: 15
+      amountIncreaseEachLevel: 2.5
+  - attribute: {fileID: 11400000, guid: c7e3824f99bb4bc43b9566210f8d02f5, type: 2}
+    amount:
+      baseAmount: 5
+      amountIncreaseEachLevel: 1
+  - attribute: {fileID: 11400000, guid: cd3d2fb4f3c67fd4dbba3bd0ccd0095e, type: 2}
+    amount:
+      baseAmount: 5
+      amountIncreaseEachLevel: 1
+  resistances: []
+  skillLevels: []
+  characteristic: 2
+  allyId: 0
+  wanderMoveSpeed: 1.5
+  visualRange: 4
+  deadHideDelay: -1
+  deadRespawnDelay: -1
+  damageInfo:
+    damageType: 1
+    hitOnlySelectedTarget: 0
+    hitDistance: 1
+    hitFov: 0
+    missileDistance: 3.5
+    missileSpeed: 8
+    missileDamageEntity: {fileID: 114101601413944088, guid: e2f9d8f3fecea4b4abe5bd8c0f4343c7,
+      type: 2}
+  damageAmount:
+    damageElement: {fileID: 0}
+    amount:
+      baseAmount:
+        min: 3
+        max: 6
+      amountIncreaseEachLevel:
+        min: 0
+        max: 0
+  randomExpMin: 20
+  randomExpMax: 20
+  randomGoldMin: 50
+  randomGoldMax: 50
+  randomItems:
+  - item: {fileID: 11400000, guid: 0caf4971c0b182947929728a15827506, type: 2}
+    amount: 30
+    dropRate: 0.1

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1287010141937558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4257762974765350}
+  - component: {fileID: 114072456199855828}
+  m_Layer: 0
+  m_Name: PlayerCharacterController2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4257762974765350
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287010141937558}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114072456199855828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287010141937558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43638d0fc9612d5448c201d1038910d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buildingPasswordContentType: 8
+  buildingPasswordLength: 6
+  gameplayCameraPrefab: {fileID: 114959064815439586, guid: 251ee6996d91e6a43ac8b034e16ec386,
+    type: 3}
+  minimapCameraPrefab: {fileID: 114293473902564364, guid: 17b7c56f66b95584583a9e4e6224379e,
+    type: 3}
+  controllerMode: 2
+  wasdLockAttackTarget: 1
+  lockAttackTargetDistance: 10
+  wasdClearTargetDistance: 15
+  pointClickSetTargetImmediately: 0
+  pointClickInterruptCastingSkill: 0
+  turnSmoothSpeed: 10
+  targetObjectPrefab: {fileID: 1401871392997294, guid: 39a34d269d7344e448989fd67a727a1d,
+    type: 3}
+  buildGridSnap: 1
+  buildGridOffsets: {x: 0, y: 0, z: 0}
+  buildGridSize: 1
+  buildRotationSnap: 1
+  buildRotateAngle: 45
+  buildRotateSpeed: 200

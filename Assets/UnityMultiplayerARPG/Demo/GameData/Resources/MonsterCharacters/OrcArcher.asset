@@ -1,0 +1,417 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc36af2edc1501b48b4e46ebebbf6589, type: 3}
+  m_Name: OrcArcher
+  m_EditorClassIdentifier: 
+  id: 
+  defaultTitle: Orc Archer
+  languageSpecificTitles: []
+  defaultDescription: 
+  languageSpecificDescriptions: []
+  category: 
+  icon: {fileID: 0}
+  stats:
+    baseStats:
+      hp: 0
+      hpRecovery: 0
+      hpLeechRate: 0
+      mp: 0
+      mpRecovery: 0
+      mpLeechRate: 0
+      stamina: 0
+      staminaRecovery: 0
+      staminaLeechRate: 0
+      food: 0
+      water: 0
+      accuracy: 0
+      evasion: 0
+      criRate: 0.25
+      criDmgRate: 1.5
+      blockRate: 0
+      blockDmgRate: 0
+      moveSpeed: 4
+      atkSpeed: 1
+      weightLimit: 0
+      slotLimit: 0
+      goldRate: 0
+      expRate: 0
+      itemDropRate: 0
+      testStat1: 0
+    statsIncreaseEachLevel:
+      hp: 0
+      hpRecovery: 0
+      hpLeechRate: 0
+      mp: 0
+      mpRecovery: 0
+      mpLeechRate: 0
+      stamina: 0
+      staminaRecovery: 0
+      staminaLeechRate: 0
+      food: 0
+      water: 0
+      accuracy: 0
+      evasion: 0
+      criRate: 0
+      criDmgRate: 0
+      blockRate: 0
+      blockDmgRate: 0
+      moveSpeed: 0
+      atkSpeed: 0
+      weightLimit: 0
+      slotLimit: 0
+      goldRate: 0
+      expRate: 0
+      itemDropRate: 0
+      testStat1: 0
+    statsIncreaseEachLevelByLevels: []
+  attributes:
+  - attribute: {fileID: 11400000, guid: 0e223af20738b88419c22a1a0401a21b, type: 2}
+    amount:
+      baseAmount: 15
+      amountIncreaseEachLevel: 1.5
+      amountIncreaseEachLevelByLevels: []
+  - attribute: {fileID: 11400000, guid: cf50e3647cfae0e44b683163d2171277, type: 2}
+    amount:
+      baseAmount: 15
+      amountIncreaseEachLevel: 2.5
+      amountIncreaseEachLevelByLevels: []
+  - attribute: {fileID: 11400000, guid: c7e3824f99bb4bc43b9566210f8d02f5, type: 2}
+    amount:
+      baseAmount: 5
+      amountIncreaseEachLevel: 1
+      amountIncreaseEachLevelByLevels: []
+  - attribute: {fileID: 11400000, guid: cd3d2fb4f3c67fd4dbba3bd0ccd0095e, type: 2}
+    amount:
+      baseAmount: 5
+      amountIncreaseEachLevel: 1
+      amountIncreaseEachLevelByLevels: []
+  resistances: []
+  armors: []
+  defaultLevel: 1
+  characteristic: 2
+  allyId: 0
+  wanderMoveSpeed: 3.5
+  visualRange: 5
+  summonedVisualRange: 10
+  skills:
+  - skill: {fileID: 11400000, guid: 342c2acc88ca3f34ab00cf7f43775edf, type: 2}
+    level: 1
+    useRate: 0.75
+    useWhenHpRate: 0
+  - skill: {fileID: 11400000, guid: c0bba1d7b0967e3428404a9fc3211a7b, type: 2}
+    level: 1
+    useRate: 0.75
+    useWhenHpRate: 0
+  - skill: {fileID: 11400000, guid: 00144a2dd7250bb4ab60d49c66cc48f0, type: 2}
+    level: 1
+    useRate: 0.75
+    useWhenHpRate: 0
+  summonerBuff:
+    tag: 
+    restrictTags: []
+    enableApplyChance: 0
+    applyChance:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    increaseStats:
+      baseStats:
+        hp: 0
+        hpRecovery: 0
+        hpLeechRate: 0
+        mp: 0
+        mpRecovery: 0
+        mpLeechRate: 0
+        stamina: 0
+        staminaRecovery: 0
+        staminaLeechRate: 0
+        food: 0
+        water: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        slotLimit: 0
+        goldRate: 0
+        expRate: 0
+        itemDropRate: 0
+        testStat1: 0
+      statsIncreaseEachLevel:
+        hp: 0
+        hpRecovery: 0
+        hpLeechRate: 0
+        mp: 0
+        mpRecovery: 0
+        mpLeechRate: 0
+        stamina: 0
+        staminaRecovery: 0
+        staminaLeechRate: 0
+        food: 0
+        water: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        slotLimit: 0
+        goldRate: 0
+        expRate: 0
+        itemDropRate: 0
+        testStat1: 0
+      statsIncreaseEachLevelByLevels: []
+    increaseStatsRate:
+      baseStats:
+        hp: 0
+        hpRecovery: 0
+        hpLeechRate: 0
+        mp: 0
+        mpRecovery: 0
+        mpLeechRate: 0
+        stamina: 0
+        staminaRecovery: 0
+        staminaLeechRate: 0
+        food: 0
+        water: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        slotLimit: 0
+        goldRate: 0
+        expRate: 0
+        itemDropRate: 0
+        testStat1: 0
+      statsIncreaseEachLevel:
+        hp: 0
+        hpRecovery: 0
+        hpLeechRate: 0
+        mp: 0
+        mpRecovery: 0
+        mpLeechRate: 0
+        stamina: 0
+        staminaRecovery: 0
+        staminaLeechRate: 0
+        food: 0
+        water: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        slotLimit: 0
+        goldRate: 0
+        expRate: 0
+        itemDropRate: 0
+        testStat1: 0
+      statsIncreaseEachLevelByLevels: []
+    increaseAttributes: []
+    increaseAttributesRate: []
+    increaseResistances: []
+    increaseArmors: []
+    increaseDamages: []
+    duration:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryHp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryMp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryStamina:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryFood:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    recoveryWater:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    damageOverTimes: []
+    ailment: 0
+    disallowMove: 0
+    disallowSprint: 0
+    disallowWalk: 0
+    disallowJump: 0
+    disallowCrouch: 0
+    disallowCrawl: 0
+    disallowAttack: 0
+    disallowUseSkill: 0
+    disallowUseItem: 0
+    freezeAnimation: 0
+    removeBuffWhenAttackChance:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    removeBuffWhenAttackedChance:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    removeBuffWhenUseSkillChance:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    removeBuffWhenUseItemChance:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    removeBuffWhenPickupItemChance:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    isHide: 0
+    muteFootstepSound: 0
+    selfStatusEffectsWhenAttacking: []
+    enemyStatusEffectsWhenAttacking: []
+    selfStatusEffectsWhenAttacked: []
+    enemyStatusEffectsWhenAttacked: []
+    doNotRemoveOnDead: 0
+    isExtendDuration: 0
+    maxStack:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+      amountIncreaseEachLevelByLevels: []
+    effects: []
+  damageInfo:
+    damageType: 1
+    hitOnlySelectedTarget: 0
+    startAttackDistance: 0
+    hitDistance: 1
+    hitFov: 0
+    missileDistance: 5
+    missileSpeed: 20
+    missileDamageEntity: {fileID: 114101601413944088, guid: 32c35b1702963a4458bc096aa7dbd612,
+      type: 3}
+    projectileEffect: {fileID: 0}
+    pierceThroughEntities: 0
+    impactEffects: {fileID: 0}
+    throwForce: 0
+    throwableLifeTime: 0
+    throwableDamageEntity: {fileID: 0}
+    customDamageInfo: {fileID: 0}
+  damageAmount:
+    damageElement: {fileID: 0}
+    amount:
+      baseAmount:
+        min: 3
+        max: 6
+      amountIncreaseEachLevel:
+        min: 2
+        max: 2
+      amountIncreaseEachLevelByLevels: []
+  moveSpeedRateWhileAttacking: 0
+  randomExp:
+    baseAmount:
+      min: 20
+      max: 20
+    amountIncreaseEachLevel:
+      min: 0
+      max: 0
+    amountIncreaseEachLevelByLevels: []
+  randomGold:
+    baseAmount:
+      min: 50
+      max: 50
+    amountIncreaseEachLevel:
+      min: 0
+      max: 0
+    amountIncreaseEachLevelByLevels: []
+  randomCurrencies: []
+  randomItems:
+  - item: {fileID: 11400000, guid: 64774d4b5cf3f9846a2d2088fb52e44a, type: 2}
+    minAmount: 0
+    maxAmount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: e43af8a3a8f9a7a478dc243c7b15ff5f, type: 2}
+    minAmount: 0
+    maxAmount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: 66401780aa1f1a24782d11c6980883b2, type: 2}
+    minAmount: 0
+    maxAmount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: f913fbdc47f19a4408bc793331f9583a, type: 2}
+    minAmount: 0
+    maxAmount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: 4ec23479e56964a4fb4f2cbd63adf628, type: 2}
+    minAmount: 0
+    maxAmount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: 99ce6353c3a0b344bb452d0b2035feed, type: 2}
+    minAmount: 0
+    maxAmount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: 4519d6286cf69b142ac9894ff8e06a31, type: 2}
+    minAmount: 0
+    maxAmount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: 93c389fe9d40638469bffd9de26d31ba, type: 2}
+    minAmount: 0
+    maxAmount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: b64f816f68b7d6a42b7d3857a4b5d931, type: 2}
+    minAmount: 0
+    maxAmount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: 8ead9c05113e5a5429ec0871d4079f29, type: 2}
+    minAmount: 0
+    maxAmount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: ff345f6fce46c844582749ebc64fd586, type: 2}
+    minAmount: 0
+    maxAmount: 1
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: 0df782e70d43dc54d8a6bc2d6a212f89, type: 2}
+    minAmount: 0
+    maxAmount: 5
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: f0ba2e9ab5115a74184f1805934e122d, type: 2}
+    minAmount: 0
+    maxAmount: 5
+    dropRate: 0.1
+  - item: {fileID: 11400000, guid: 0a439d3c316c36f4cae03a253c8839d4, type: 2}
+    minAmount: 0
+    maxAmount: 5
+    dropRate: 0.1
+  itemDropTables: []
+  itemRandomByWeightTables: []
+  maxDropItems: 5
+  randomExpMin: 0
+  randomExpMax: 0
+  randomGoldMin: 0
+  randomGoldMax: 0
+  itemDropTable: {fileID: 0}

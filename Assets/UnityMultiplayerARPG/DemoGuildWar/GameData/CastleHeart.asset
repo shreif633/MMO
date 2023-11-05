@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc36af2edc1501b48b4e46ebebbf6589, type: 3}
+  m_Name: CastleHeart
+  m_EditorClassIdentifier: 
+  title: Castle Heart
+  titles: []
+  description: 
+  descriptions: []
+  category: 
+  icon: {fileID: 0}
+  stats:
+    baseStats:
+      hp: 100
+      mp: 0
+      accuracy: 0
+      evasion: 0
+      criRate: 0
+      criDmgRate: 0
+      blockRate: 0
+      blockDmgRate: 0
+      moveSpeed: 1
+      atkSpeed: 0
+      weightLimit: 0
+      slotLimit: 0
+      stamina: 0
+      food: 0
+      water: 0
+      testStats: 0
+    statsIncreaseEachLevel:
+      hp: 0
+      mp: 0
+      accuracy: 0
+      evasion: 0
+      criRate: 0
+      criDmgRate: 0
+      blockRate: 0
+      blockDmgRate: 0
+      moveSpeed: 0
+      atkSpeed: 0
+      weightLimit: 0
+      slotLimit: 0
+      stamina: 0
+      food: 0
+      water: 0
+      testStats: 0
+  attributes: []
+  resistances: []
+  armors: []
+  defaultLevel: 1
+  characteristic: 0
+  allyId: 0
+  wanderMoveSpeed: 0
+  visualRange: 5
+  monsterSkills: []
+  damageInfo:
+    damageType: 0
+    hitOnlySelectedTarget: 0
+    hitDistance: 0
+    hitFov: 0
+    missileDistance: 0
+    missileSpeed: 0
+    missileDamageEntity: {fileID: 0}
+    projectileEffect: {fileID: 0}
+    pierceThroughEntities: 0
+    impactEffects: {fileID: 0}
+    customDamageInfo: {fileID: 0}
+  damageAmount:
+    damageElement: {fileID: 0}
+    amount:
+      baseAmount:
+        min: 0
+        max: 0
+      amountIncreaseEachLevel:
+        min: 0
+        max: 0
+  moveSpeedRateWhileAttacking: 0
+  randomExpMin: 0
+  randomExpMax: 0
+  randomGoldMin: 0
+  randomGoldMax: 0
+  maxDropItems: 5
+  randomItems: []
+  itemDropTable: {fileID: 0}

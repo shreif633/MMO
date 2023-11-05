@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc4a75b859b91a499c9a213c0fa3edc, type: 3}
+  m_Name: SkillCastDown
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 21300028, guid: 364fe853668f0244a97dfcca7f7c95f7, type: 3}
+  - {fileID: 21300030, guid: 364fe853668f0244a97dfcca7f7c95f7, type: 3}
+  - {fileID: 21300032, guid: 364fe853668f0244a97dfcca7f7c95f7, type: 3}
+  - {fileID: 21300034, guid: 364fe853668f0244a97dfcca7f7c95f7, type: 3}
+  - {fileID: 21300036, guid: 364fe853668f0244a97dfcca7f7c95f7, type: 3}
+  - {fileID: 21300038, guid: 364fe853668f0244a97dfcca7f7c95f7, type: 3}
+  - {fileID: 21300040, guid: 364fe853668f0244a97dfcca7f7c95f7, type: 3}
+  framesPerSec: 20
+  loop: 0
+  flipX: 0
+  flipY: 0

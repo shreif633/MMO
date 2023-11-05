@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9007e8156e29b4088b2a31f9360c7c, type: 3}
+  m_Name: ArmorGacha
+  m_EditorClassIdentifier: 
+  id: 
+  defaultTitle: Armor Gacha
+  languageSpecificTitles: []
+  defaultDescription: 
+  languageSpecificDescriptions: []
+  category: 
+  icon: {fileID: 21300000, guid: fa88bd6a9e09afa44964a6da1e616aed, type: 3}
+  externalIconUrl: 
+  singleModeOpenPrice: 10
+  multipleModeOpenPrice: 100
+  multipleModeOpenCount: 11
+  randomItems:
+  - item: {fileID: 11400000, guid: 64774d4b5cf3f9846a2d2088fb52e44a, type: 2}
+    amount: 1
+    randomWeight: 1
+  - item: {fileID: 11400000, guid: 20778c7ba3f0b774cabeb64adee7b5b6, type: 2}
+    amount: 1
+    randomWeight: 3
+  - item: {fileID: 11400000, guid: f913fbdc47f19a4408bc793331f9583a, type: 2}
+    amount: 1
+    randomWeight: 1
+  - item: {fileID: 11400000, guid: ff506a51bc63736409429d6b4300cf79, type: 2}
+    amount: 1
+    randomWeight: 3
+  - item: {fileID: 11400000, guid: e43af8a3a8f9a7a478dc243c7b15ff5f, type: 2}
+    amount: 1
+    randomWeight: 1
+  - item: {fileID: 11400000, guid: 6ac6a202d55256c4b90441cd9f55751c, type: 2}
+    amount: 1
+    randomWeight: 3

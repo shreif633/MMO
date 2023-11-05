@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72fc2881ab2316a4f9e46c36a0173647, type: 3}
+  m_Name: GuildMoreExp
+  m_EditorClassIdentifier: 
+  title: More Exp
+  description: 
+  icon: {fileID: 21300000, guid: a9a1e677fddcf1c4690c4bf051f07031, type: 3}
+  skillType: 1
+  maxLevel: 5
+  increaseMaxMember:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+  increaseExpGainPercentage:
+    baseAmount: 5
+    amountIncreaseEachLevel: 2.5
+  increaseGoldGainPercentage:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+  increaseShareExpGainPercentage:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+  increaseShareGoldGainPercentage:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+  decreaseExpLostPercentage:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+  coolDownDuration:
+    baseAmount: 0
+    amountIncreaseEachLevel: 0
+  buff:
+    duration:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryHp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryMp:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryStamina:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryFood:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    recoveryWater:
+      baseAmount: 0
+      amountIncreaseEachLevel: 0
+    increaseStats:
+      baseStats:
+        hp: 0
+        mp: 0
+        armor: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        stamina: 0
+        food: 0
+        water: 0
+        testStats: 0
+      statsIncreaseEachLevel:
+        hp: 0
+        mp: 0
+        armor: 0
+        accuracy: 0
+        evasion: 0
+        criRate: 0
+        criDmgRate: 0
+        blockRate: 0
+        blockDmgRate: 0
+        moveSpeed: 0
+        atkSpeed: 0
+        weightLimit: 0
+        stamina: 0
+        food: 0
+        water: 0
+        testStats: 0
+    increaseAttributes: []
+    increaseResistances: []
+    increaseDamages: []
+    effects: []

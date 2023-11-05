@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{5BA7A631-3783-488B-B307-55A12AD817E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnityMultiplayerARPG", "UnityMultiplayerARPG", "{BFCD793A-D4C1-4EB4-8CCF-DCA42B9FF5D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BB4D973E-2C70-48C8-B3AD-B3D6F2AF1B03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LiteNetLibManager", "LiteNetLibManager", "{53484621-D9C0-4135-ADB1-1C2661D2F463}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{F3FAC437-5A16-4BF5-802F-16AFCFB9F4AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteNetLib", "Assets\UnityMultiplayerARPG\Core\LiteNetLibManager\Plugins\LiteNetLib\LiteNetLib.csproj", "{E56FE89C-630F-42BF-8929-6135ED6F99F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E56FE89C-630F-42BF-8929-6135ED6F99F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56FE89C-630F-42BF-8929-6135ED6F99F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56FE89C-630F-42BF-8929-6135ED6F99F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56FE89C-630F-42BF-8929-6135ED6F99F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFCD793A-D4C1-4EB4-8CCF-DCA42B9FF5D1} = {5BA7A631-3783-488B-B307-55A12AD817E8}
+		{BB4D973E-2C70-48C8-B3AD-B3D6F2AF1B03} = {BFCD793A-D4C1-4EB4-8CCF-DCA42B9FF5D1}
+		{53484621-D9C0-4135-ADB1-1C2661D2F463} = {BB4D973E-2C70-48C8-B3AD-B3D6F2AF1B03}
+		{F3FAC437-5A16-4BF5-802F-16AFCFB9F4AE} = {53484621-D9C0-4135-ADB1-1C2661D2F463}
+		{E56FE89C-630F-42BF-8929-6135ED6F99F2} = {F3FAC437-5A16-4BF5-802F-16AFCFB9F4AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {396BF7FF-812C-4380-B092-4D9DE414EC16}
+	EndGlobalSection
+EndGlobal

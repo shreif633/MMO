@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6309f949eb998c84bbb1543aac39272f, type: 3}
+  m_Name: CashPackageDatabase
+  m_EditorClassIdentifier: 
+  cashStopItems:
+  - {fileID: 11400000, guid: 650684b8501827a4b8c7357393c79aa8, type: 2}
+  - {fileID: 11400000, guid: eb35ffdea3684f743b476d39afb3fba7, type: 2}
+  cashPackages:
+  - {fileID: 11400000, guid: 4094a79928bbb7c468cdd7a91b4aa45d, type: 2}
+  - {fileID: 11400000, guid: ee7279b183823124a8b1d18dccc75f94, type: 2}

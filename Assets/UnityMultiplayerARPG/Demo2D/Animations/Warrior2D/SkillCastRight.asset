@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffc4a75b859b91a499c9a213c0fa3edc, type: 3}
+  m_Name: SkillCastRight
+  m_EditorClassIdentifier: 
+  frames:
+  - {fileID: 21300042, guid: 73f45019b62e43e4a953e0998797cad1, type: 3}
+  - {fileID: 21300044, guid: 73f45019b62e43e4a953e0998797cad1, type: 3}
+  - {fileID: 21300046, guid: 73f45019b62e43e4a953e0998797cad1, type: 3}
+  - {fileID: 21300048, guid: 73f45019b62e43e4a953e0998797cad1, type: 3}
+  - {fileID: 21300050, guid: 73f45019b62e43e4a953e0998797cad1, type: 3}
+  - {fileID: 21300052, guid: 73f45019b62e43e4a953e0998797cad1, type: 3}
+  - {fileID: 21300054, guid: 73f45019b62e43e4a953e0998797cad1, type: 3}
+  framesPerSec: 20
+  loop: 0

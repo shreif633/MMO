@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2de60c27449f5b74d8b938410ed929f2, type: 3}
+  m_Name: Map_GuildWar
+  m_EditorClassIdentifier: 
+  id: 
+  title: Guild War
+  titles: []
+  description: 
+  descriptions: []
+  category: 
+  icon: {fileID: 0}
+  scene:
+    sceneAsset: {fileID: 102900000, guid: 8334feb320588b54cb3cff0e1af0ff76, type: 3}
+    sceneName: Map_GuildWar
+  startPosition: {x: 0, y: 0, z: -85}
+  deadY: -100
+  sunday:
+    isOn: 1
+    startTime: 6
+    endTime: 18
+  monday:
+    isOn: 1
+    startTime: 0
+    endTime: 24
+  tuesday:
+    isOn: 1
+    startTime: 0
+    endTime: 24
+  wednesday:
+    isOn: 1
+    startTime: 0
+    endTime: 24
+  thursday:
+    isOn: 1
+    startTime: 0
+    endTime: 24
+  friday:
+    isOn: 1
+    startTime: 0
+    endTime: 24
+  saturday:
+    isOn: 1
+    startTime: 6
+    endTime: 18
+  battleDuration: 15
+  eventStartedMessage: Guild war started !!
+  eventEndedMessage: Guild war ended !!
+  roundEndedMessage: Current guild war round ended !!
+  defenderWinMessage: '{0} can defend the castle and win this round.'
+  attackerWinMessage: '{0} can occupy the castle and win this round.'
+  participantMailTitle: Guild War Participant Reward
+  participantMailContent: 
+  participantRewardGold: 100
+  participantRewardCurrencies:
+  - currency: {fileID: 11400000, guid: 02d40019f7430f0459286df57e6b450b, type: 2}
+    amount: 1000
+  participantRewardItems: []
+  winMailTitle: Guild War Winer Reward
+  winMailContent: 
+  winRewardGold: 500
+  winRewardCurrencies:
+  - currency: {fileID: 11400000, guid: 02d40019f7430f0459286df57e6b450b, type: 2}
+    amount: 5000
+  winRewardItems:
+  - item: {fileID: 11400000, guid: 34342a09346349345a4313fd6e7657e1, type: 2}
+    amount: 25
+  - item: {fileID: 11400000, guid: 5842068f5743c524c967a28b483477ed, type: 2}
+    amount: 25

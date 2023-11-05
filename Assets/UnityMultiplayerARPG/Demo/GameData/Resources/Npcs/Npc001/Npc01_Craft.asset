@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bc493348cdb9474d89497ed882aae38, type: 3}
+  m_Name: Npc01_Craft
+  m_EditorClassIdentifier: 
+  title: Npc 01
+  description: Craft Sword
+  icon: {fileID: 0}
+  type: 3
+  menus: []
+  quest: {fileID: 0}
+  questAcceptedDialog: {fileID: 0}
+  questDeclinedDialog: {fileID: 0}
+  questAbandonedDialog: {fileID: 0}
+  questCompletedDailog: {fileID: 0}
+  sellItems: []
+  itemCraft:
+    craftingItem: {fileID: 11400000, guid: b64f816f68b7d6a42b7d3857a4b5d931, type: 2}
+    craftRequirements:
+    - item: {fileID: 11400000, guid: 93c389fe9d40638469bffd9de26d31ba, type: 2}
+      amount: 2
+    requireGold: 0
+  craftDoneDialog: {fileID: 11400000, guid: f936eadaf84b7c64f9b0015e52dd609b, type: 2}
+  craftNotMeetRequirementsDialog: {fileID: 11400000, guid: a4b24ff6113420e44997e1e258b2e03a,
+    type: 2}
+  craftCancelDialog: {fileID: 11400000, guid: 8b467587e6de8ef498fd5420052587aa, type: 2}

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea06a475b732744abb433090755a3e1, type: 3}
+  m_Name: Bow
+  m_EditorClassIdentifier: 
+  title: Bow
+  titles: []
+  description: 
+  descriptions: []
+  category: 
+  icon: {fileID: 0}
+  equipType: 2
+  damageInfo:
+    damageType: 1
+    hitOnlySelectedTarget: 1
+    hitDistance: 1.5
+    hitFov: 90
+    missileDistance: 5
+    missileSpeed: 20
+    missileDamageEntity: {fileID: 114101601413944088, guid: 32c35b1702963a4458bc096aa7dbd612,
+      type: 2}
+  effectivenessAttributes: []
+  weaponAbility: {fileID: 0}
+  crosshairSetting:
+    expandPerFrameWhileMoving: 3
+    expandPerFrameWhileAttacking: 5
+    shrinkPerFrame: 8
+    minSpread: 10
+    maxSpread: 50
+  fireType: 0
+  fireStagger: {x: 0, y: 0}
+  fireSpread: 0
+  requireAmmoType: {fileID: 11400000, guid: 40442b933cd745c44a9c045c9db0d0c0, type: 2}
+  ammoCapacity: 0

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91bcd1745666c51408dd4cae77813eab, type: 3}
+  m_Name: NpcDatabase
+  m_EditorClassIdentifier: 
+  maps:
+  - mapInfo: {fileID: 11400000, guid: de8b0e4099f8d444692e88f92309e90d, type: 2}
+    npcs:
+    - entityPrefab: {fileID: 114956895244263434, guid: 5787a223defb5c248a2e9dbe6e3d58e5,
+        type: 2}
+      position: {x: 0, y: 0, z: -4}
+      rotation: {x: 0, y: 0, z: 0}
+      title: Orc Warrior
+      startDialog: {fileID: 0}
+      graph: {fileID: 11400000, guid: f9528b58084d8ae4f91b64fff1cc9dcf, type: 2}

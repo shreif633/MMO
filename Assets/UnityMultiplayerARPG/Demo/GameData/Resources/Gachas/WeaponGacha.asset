@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9007e8156e29b4088b2a31f9360c7c, type: 3}
+  m_Name: WeaponGacha
+  m_EditorClassIdentifier: 
+  id: 
+  defaultTitle: Weapon Gacha
+  languageSpecificTitles: []
+  defaultDescription: 
+  languageSpecificDescriptions: []
+  category: 
+  icon: {fileID: 21300000, guid: 5c5d17ce2c3284940b0f0e5109c69298, type: 3}
+  externalIconUrl: 
+  singleModeOpenPrice: 10
+  multipleModeOpenPrice: 100
+  multipleModeOpenCount: 11
+  randomItems:
+  - item: {fileID: 11400000, guid: b64f816f68b7d6a42b7d3857a4b5d931, type: 2}
+    amount: 1
+    randomWeight: 1
+  - item: {fileID: 11400000, guid: 93c389fe9d40638469bffd9de26d31ba, type: 2}
+    amount: 1
+    randomWeight: 3
+  - item: {fileID: 11400000, guid: 99ce6353c3a0b344bb452d0b2035feed, type: 2}
+    amount: 1
+    randomWeight: 1
+  - item: {fileID: 11400000, guid: 4519d6286cf69b142ac9894ff8e06a31, type: 2}
+    amount: 1
+    randomWeight: 3
+  - item: {fileID: 11400000, guid: 4ec23479e56964a4fb4f2cbd63adf628, type: 2}
+    amount: 1
+    randomWeight: 1
+  - item: {fileID: 11400000, guid: df61cc539bfb0d94aa82ffac5bd01724, type: 2}
+    amount: 1
+    randomWeight: 3
+  - item: {fileID: 11400000, guid: 6a844357d966b924ea30ae8d473e030a, type: 2}
+    amount: 20
+    randomWeight: 5
+  - item: {fileID: 11400000, guid: c4f83999d394a4c4cbd65dc4e44885df, type: 2}
+    amount: 1
+    randomWeight: 1
+  - item: {fileID: 11400000, guid: 84eba039ed32fda4693c20ebba14c822, type: 2}
+    amount: 20
+    randomWeight: 5
+  - item: {fileID: 11400000, guid: cef25d7570c129340a039818a8fca7c6, type: 2}
+    amount: 1
+    randomWeight: 1
+  - item: {fileID: 11400000, guid: effa88bea19e7fe4babaf64ec0c771a2, type: 2}
+    amount: 20
+    randomWeight: 5
+  - item: {fileID: 11400000, guid: 73198fdebc1903c47bbe6a47a92c4275, type: 2}
+    amount: 1
+    randomWeight: 3
